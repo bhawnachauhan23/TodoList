@@ -1,0 +1,18 @@
+.header-container .Navbar {
+  height: 120px;
+  padding-left: 45px;
+  background-color: rgb(39, 66, 57);
+}
+
+.todoIcon {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+}
+
+.navbar-title {
+  position: absolute;
+  left: 170px;
+  top: 30px;
+  color: pink;
+}

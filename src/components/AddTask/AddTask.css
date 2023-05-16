@@ -1,0 +1,135 @@
+.taskContainer {
+  width: 1100px;
+  padding-left: 240px;
+  height: 30%;
+  background: linear-gradient(
+    -70deg,
+    #b5e48c,
+    #99d98c,
+    #76c893,
+    #52b69a,
+    #34a0a4,
+    #168aad,
+    #1a759f,
+    #1e6091,
+    #184e77
+  );
+  border-radius: 40px;
+  margin: auto;
+  box-shadow: 16px 16px 14px rgb(124, 155, 155);
+  margin-bottom: 20px;
+}
+.taskContainer form {
+  height: 100%;
+  margin: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.taskContainer form label {
+  font-size: 1.7rem;
+  font-family: sans-serif;
+  font-weight: 700;
+  position: relative;
+  left: 25px;
+  bottom: 8px;
+  color: white;
+}
+
+.taskContainer form input {
+  width: 500px;
+  height: 55px;
+  border-radius: 25px;
+  padding: 0.2rem;
+  font-size: 25px;
+  font-family: sans-serif;
+  letter-spacing: 0.3px;
+  padding-left: 80px;
+  color: blue;
+}
+
+.input {
+  position: relative;
+  font-size: 1.5em;
+  background: linear-gradient(21deg, #10abff, #1beabd);
+  padding: 3px;
+  display: inline-block;
+  border-radius: 9999em;
+}
+
+.input *:not(span) {
+  position: relative;
+  display: inherit;
+  border-radius: inherit;
+  margin: 0;
+  border: none;
+  outline: none;
+  padding: 0 0.325em;
+  z-index: 1;
+}
+
+.input *:not(span):focus + span {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.input span {
+  transform: scale(0.993, 0.94);
+  transition: transform 0.5s, opacity 0.25s;
+  opacity: 0;
+  position: absolute;
+  z-index: 0;
+  margin: 4px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  box-shadow: inset 0 0 0 3px #fff, 0 0 0 4px #fff, 3px -3px 30px #1beabd,
+    -3px 3px 30px #10abff;
+}
+
+input {
+  font-family: inherit;
+  line-height: inherit;
+  color: #2e3750;
+  min-width: 12em;
+}
+
+::-moz-placeholder {
+  color: #cbd0d5;
+}
+
+:-ms-input-placeholder {
+  color: #cbd0d5;
+}
+
+::placeholder {
+  color: #cbd0d5;
+}
+
+.taskContainer form input:focus {
+  border: none;
+  box-shadow: 3px 3px 2px rgb(243, 247, 25) inset;
+}
+
+.taskContainer form button {
+  padding: 0.4rem;
+  border-radius: 20px;
+  letter-spacing: 0.4px;
+  background-color: skyblue;
+  color: whitesmoke;
+  box-shadow: 6px 6px 4px rgb(44, 148, 148);
+  position: relative;
+  border: 2px solid rgb(44, 148, 148);
+  right: 170px;
+  top: 20px;
+}
+
+.taskContainer form button:hover {
+  cursor: pointer;
+  box-shadow: 4px 4px 3px rgb(8, 230, 218) inset;
+}
